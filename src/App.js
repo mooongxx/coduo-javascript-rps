@@ -1,5 +1,5 @@
 class App {
-  play() {
+  async play() {
     console.log('Hello World!');
     return 'Hello World!';
   }
