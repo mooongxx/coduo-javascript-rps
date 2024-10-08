@@ -1,0 +1,29 @@
+{
+  "name": "coduo-javascript-rps",
+  "version": "0.0.1",
+  "description": "코딩해듀오 가위바위보 미션",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "engines": {
+    "npm": ">=9.6.7",
+    "node": ">=18.17.1"
+  }
+}
